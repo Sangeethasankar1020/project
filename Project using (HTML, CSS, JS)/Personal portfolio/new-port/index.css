@@ -5,16 +5,13 @@
     font-family: roboto, sans-serif;
     background-color: black;
 }
-
 body {
     margin-bottom: 50px;
 }
-
 /* profile */
 .main-profile {
     margin-top: 50px;
 }
-
 .profile {
     display: flex;
     justify-content: center;
@@ -24,18 +21,15 @@ body {
     max-width: 1200px;
     margin: auto;
 }
-
 .profile-img img {
     border-radius: 50%;
 }
-
 .profile-text {
     display: flex;
     flex-direction: column;
     gap: 14px;
     align-items: center;
 }
-
 .profile-text h4,
 .profile-text h6,
 .profile-text h5,
@@ -44,7 +38,6 @@ body {
 .skill-hd {
     color: #d2d2d2;
 }
-
 .profile-text h4 {
     font-size: 30px;
 }
@@ -59,7 +52,6 @@ body {
     font-size: 16px;
     font-weight: 500;
 }
-
 .position-name {
     background: linear-gradient(to right, red, orange, violet);
     -webkit-background-clip: text;
@@ -70,7 +62,6 @@ body {
 .wrap {
     overflow: hidden;
     white-space: nowrap;
-    /* border-right: .15em solid violet; */
 }
 .position-name{
     display: inline-block;
@@ -83,8 +74,7 @@ from {
 to {
     width: 100%;
 }
-}
-                
+}               
 /* about */
 .about-me,
 .skills,
@@ -96,7 +86,6 @@ to {
     justify-content: center;
     align-items: center;
 }
-
 .about-heading,
 .skills-heading,
 .project-heading ,.contact-heading {
@@ -107,7 +96,6 @@ to {
     font-size: 40px;
     color: ghostwhite;
 }
-
 .about-box {
     height: 350px;
     width: 560px;
@@ -116,7 +104,6 @@ to {
     border-radius: 20px;
 
 }
-
 .about-heading::before,
 .about-heading::after,
 .skills-heading::before,
@@ -131,19 +118,16 @@ to {
     margin-bottom: -2px;
     background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
 }
-
 .about-txt {
     padding: 26px;
     margin-top: 24px;
 }
-
 .about-txt p {
     line-height: 1.6;
     font-size: larger;
     font-weight: 300;
     text-align: justify;
 }
-
 .resume-btn {
     padding: 12px;
     width: 150px;
@@ -154,19 +138,16 @@ to {
     font-weight: 600;
     border-radius: 30px;
 }
-
 .resume-btn:hover {
     background: linear-gradient(to right, rgb(132, 77, 231) 0%, #a16ae8 100%);
     
 }
-
 /* skill */
 .skill-box-row {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
-
 .skill-main-box,
 .skill-main-box-others {
     width: 400px;
@@ -174,15 +155,12 @@ to {
     box-shadow: 0px 0px 10px rgb(132, 77, 231);
     border-radius: 20px;
 }
-
 .skill-main-box {
     height: 490px;
 }
-
 .skill-main-box-others {
     height: 300px;
 }
-
 .skill-content {
     margin-top: 20px;
     display: flex;
@@ -190,7 +168,6 @@ to {
     align-items: center;
     gap: 20px;
 }
-
 .skill-child,
 .skill-child-js,
 .skill-child-mq {
@@ -210,11 +187,9 @@ to {
 .skill-child {
     width: 115px;
 }
-
 .skill-child-js {
     width: 160px;
 }
-
 .skill-child-mq {
     width: 170px;
 }
@@ -230,13 +205,11 @@ to {
     border-radius: 20px;
     position: relative;
 }
-
 .project-img {
     position: absolute;
     left: -117px;
     top: 13%;
 }
-
 .project-text {
     display: flex;
     flex-direction: column;
@@ -244,7 +217,6 @@ to {
     margin-top: 20px;
     gap: 25px;
 }
-
 .project-hd {
     color: #d2d2d2;
     margin-left: 150px;
@@ -252,21 +224,18 @@ to {
     font-size: 18px;
     text-align: center;
 }
-
 .project-text h6 {
     color: #d2d2d2;
     font-size: 17px;
     margin-left: 150px;
     text-align: center;
 }
-
 .project-text p {
     color: #d2d2d2;
     margin-left: 150px;
     line-height: 1.5;
     text-align: center;
 }
-
 .code-btn,
 .live-demo-btn {
     height: 40px;
@@ -279,12 +248,11 @@ to {
     gap: 10px;
     font-size: 15px;
     font-weight: 600;
+    text-decoration: none;
 }
-
 .code-btn {
     width: 100px;
 }
-
 .live-demo-btn {
     width: 140px;
 }
@@ -295,6 +263,9 @@ to {
     display: flex;
     gap: 10px;
     margin-left: 150px;
+}
+.project-btn a button,.project-btn a{
+    text-decoration: none;
 }
 /* contact */
 .contact-content{
@@ -314,10 +285,9 @@ to {
     transition: opacity 0.3s ease;
     font-size: 50px;
 }
-
 .up-arrow.show {
     opacity: 1;
 }
-/* custom scroll  */
+
 
 
