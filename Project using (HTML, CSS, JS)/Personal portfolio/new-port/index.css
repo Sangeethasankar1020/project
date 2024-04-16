@@ -74,7 +74,7 @@ from {
 to {
     width: 100%;
 }
-}               
+}           
 /* about */
 .about-me,
 .skills,
@@ -209,6 +209,9 @@ to {
     position: absolute;
     left: -117px;
     top: 13%;
+    border: 0.1px solid rgb(132, 77, 231);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(132, 77, 231);
 }
 .project-text {
     display: flex;
