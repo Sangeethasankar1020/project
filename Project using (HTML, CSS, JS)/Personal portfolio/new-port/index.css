@@ -291,6 +291,19 @@ to {
 .up-arrow.show {
     opacity: 1;
 }
-
+/* scroll bar custom */
+::-webkit-scrollbar {
+    width: 8px;
+    border: 1px solid #d5d5d5;
+  }
+  ::-webkit-scrollbar-track {
+    width: 5px;
+    border-radius: 0;
+    background: #eeeeee;
+  }
+   ::-webkit-scrollbar-thumb { 
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #8A2BE2, orange, violet);
+  }
 
 
