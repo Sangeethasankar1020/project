@@ -1,0 +1,131 @@
+@media(max-width:815px){
+    .profile{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects{
+        gap: 150px;
+    }
+    .project-text{
+        padding-top: 30px;
+    }
+    .project-box {
+        height: 420px;
+        width: 400px;
+    }
+    .project-img {
+        width: 300px;
+        height: 170px;
+        position: absolute;
+        left: 50px;
+        top: -22%;
+        border-radius: 10px;
+    }
+    .project-text h6 ,.project-text p ,.project-btn{
+        margin-left: 0px;
+    }
+    .project-text p{
+        padding: 10px;
+    }
+    .about-box {
+        height: 441px;
+        width: 372px;
+    }
+    .about-txt p{
+        font-size: 18px;
+    }
+    .skill-main-box,
+    .skill-main-box-others {
+        width: 350px;
+    }
+}
+@media(max-width:430px){
+    .profile-img img{
+        height: 200px;
+        width: 200px;
+    }
+    .position-name,.profile-text h4{
+        font-size: 24px;
+    }
+    .resume-btn {
+        padding: 9px;
+        width: 117px;
+        font-size: 13px;
+    }
+    .about-heading,
+    .skills-heading,
+    .project-heading,
+    .contact-heading {
+        font-size: 30px;
+    }
+    .about-heading::before,
+    .about-heading::after,
+    .skills-heading::before,
+    .skills-heading::after,
+    .project-heading::before,
+    .project-heading::after,
+    .contact-heading::before,
+    .contact-heading::after {
+        width: 40px;
+    }
+    .about-txt p {
+        font-size: 15px;
+    }
+    .about-box {
+        height: 433px;
+        width: 290px;
+    }
+    .skill-main-box,
+    .skill-main-box-others {
+        width: 290px;
+    }
+    .profile-text h6,
+    .skill-hd {
+        font-size: 20px;
+    }
+    .project-img {
+        width: 250px;
+        height: 190px;
+        left: 20px;
+        top: -22%;
+        border-radius: 10px;
+    }
+    .project-box {
+        height: 445px;
+        width: 290px;
+    }
+    .project-text h6 {
+        font-size: 14px;
+    }
+    .up-arrow{
+        font-size: 40px;
+    }   
+}
+@media(max-width:315px){
+    .about-txt p {
+        font-size: 14px;
+    }
+    .about-box {
+        height: 452px;
+        width: 250px;
+    }
+    .skill-main-box,
+    .skill-main-box-others {
+        width: 250px;
+    }
+    .project-box {
+        height: 508px;
+        width: 250px;
+    }
+    .project-btn {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-img {
+        width: 206px;
+        height: 190px;
+        left: 20px;
+        top: -18%;
+        border-radius: 10px;
+    }
+}
