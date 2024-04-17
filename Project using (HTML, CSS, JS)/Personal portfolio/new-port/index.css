@@ -42,7 +42,7 @@ body {
     font-size: 30px;
 }
 .profile-text h4:hover{
-    color: #8A2BE2;
+    text-shadow: 0px 0px 20px #8A2BE2;
 }
 .profile-text h6,
 .skill-hd {

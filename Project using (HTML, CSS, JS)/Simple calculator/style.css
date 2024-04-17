@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  /* outline: 0; */
+}
+body{
+  margin-top: 50px;
+  /* background-image: linear-gradient( to bottom right, rgba(79,51,176,1.0),rgba(210,53,165)); */
+}
+.main-container{
+  height: 400px;
+  width: 300px;
+  border: 1px solid black;
+  margin: auto;
+  max-width: 1200px;
+}
+.screen{
+  height: 130px;
+  width: 100%;
+}
