@@ -8,6 +8,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <script src="./index.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="mediaquery.css">
 
 </head>
@@ -16,10 +18,10 @@
     <!-- profile -->
     <section class="main-profile">
         <article class="profile">
-            <div class="profile-img">
+            <div class="profile-img" data-aos="fade-right">
                 <img src="../images/Sangeetha.jpg" height="250px" width="250px">
             </div>
-            <div class="profile-text">
+            <div class="profile-text" data-aos="fade-left">
                 <h5>Hello, I'm</h5>
                 <h4>Sangeetha S</h4>
                 <div class="wrap">
@@ -32,10 +34,10 @@
         </article>
         <!-- about me -->
         <article class="about-me">
-            <div>
+            <div  data-aos="fade-up-right">
                 <h6 class="about-heading">About me</h6>
             </div>
-            <div class="about-box">
+            <div class="about-box" data-aos="zoom-in">
                 <div class="about-txt">
                     <p>Hello, I'm Sangeetha S, a passionate frontend developer based in Villupuram, India. I am actively
                         seeking opportunities
@@ -52,12 +54,12 @@
             <i class='bx bxs-up-arrow-circle' style='color:#8e27e0'></i>
         </article>
         <!-- skills -->
-        <article class="skills">
-            <div>
+        <article class="skills" >
+            <div data-aos="fade-up-right">
                 <h6 class="skills-heading">Skills</h6>
             </div>
             <article class="skill-box-row">
-                <div class="skill-main-box">
+                <div class="skill-main-box" data-aos="fade-down-right">
                     <section class="skill-content">
                         <div>
                             <h6 class="skill-hd">Front - end </h6>
@@ -90,7 +92,7 @@
                     </section>
                 </div>
                 <!-- others -->
-                <div class="skill-main-box-others">
+                <div class="skill-main-box-others" data-aos="fade-down-left">
                     <section class="skill-content">
                         <div>
                             <h6 class="skill-hd">Tools</h6>
@@ -106,7 +108,7 @@
                     </section>
                 </div>
                 <!-- programing language -->
-                <div class="skill-main-box-others">
+                <div class="skill-main-box-others"data-aos="fade-down-right">
                     <section class="skill-content">
                         <div>
                             <h6 class="skill-hd">Programming Language</h6>
@@ -121,12 +123,12 @@
         </article>
         <!-- projects -->
         <article class="projects">
-            <div>
+            <div data-aos="fade-up-right">
                 <h6 class="project-heading">Projects</h6>
             </div>
             <!-- project-1 box -->
-            <div class="project-box">
-                <div class="portfolio-img">
+            <div class="project-box" data-aos="zoom-in">
+                <div class="portfolio-img" >
                     <img src="../images/portfolio.jpg" height="300px" width="250px" class="project-img">
                 </div>
                 <div class="project-text">
@@ -144,10 +146,10 @@
         </article>
         <!-- contact me -->
         <article class="contact-me">
-            <div>
+            <div data-aos="fade-up-right">
                 <h6 class="contact-heading">Contact Me</h6>
             </div>
-            <div class="contact-content">
+            <div class="contact-content" >
                 <a href="https://www.linkedin.com/in/sangeetha-s-02a0bb1b6/"><img src="../images/linkedin_2_new.svg"
                         height="45px" width="45px"></a>
                 <a href="https://github.com/Sangeethasankar1020"><img src="../images/github_png_icon.png" height="65px"
@@ -158,6 +160,13 @@
             </div>
         </article>
     </section>
+    <script>
+AOS.init({
+duration: 1000,
+easing: 'ease-in-out',
+once: true
+});
+    </script>
 </body>
 
 </html>

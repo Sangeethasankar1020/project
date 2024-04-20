@@ -2,16 +2,19 @@
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  /* outline: 0; */
 }
 html{
-  /* background: linear-gradient( to bottom right, rgba(79,51,176,1.0),rgba(210,53,165)); */
   margin-top: 50px;
+} 
+body {
+  /* background: linear-gradient(to bottom right, rgba(79, 51, 176, 1.0), rgba(210, 53, 165)); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0; 
+  padding: 0; 
 }
-body{
-  /* background: linear-gradient( to bottom right, rgba(79,51,176,1.0),rgba(210,53,165));
-  background-repeat: no-repeat; */
-}
+
 .main-container{
   height: 435px;
   width: 265px;
@@ -24,9 +27,11 @@ body{
   
 }
 .display-screen{
-  height: 110px;
-  width: 255px;
+  margin: 19px 0px 10px 0px;
+  height: 85px;
+  width: 244px;
   color: #0a1e23;
+  background-color: floralwhite;
 }
 .toggle{
   float: right;
