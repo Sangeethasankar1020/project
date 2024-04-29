@@ -12,16 +12,28 @@
     <article class="container">
         <div class="main-container">
             <h2>Goal Getter: Achieve More, Stress Less</h2>
+            <!-- input -->
             <div class="input-main">
                 <input type="text" placeholder="add your todo here..." class="input-box">
                 <button type="button" class="add-btn">Add</button>
             </div>
-            <div>
-                <button type="button">Select to Delete</button>
-                <button type="button">Delete All</button>
+            <!-- delete -->
+            <div class="btn">
+                <button type="button" class="select-btn">Select to Delete</button>
+                <button type="button" class="delete-btn">Delete All</button>
             </div>
-            <div>
-                
+            <!-- filters -->
+            <div class="filters">
+                <div class="dropdown">
+                    <button class="dropbtn">Filter</button>
+                    <div class="drop-content">
+                        <a>All</a>
+                        <a>Pending</a>
+                        <a>Completed</a>
+                    </div>
+                </div>
+                <p>Completed : <span>0</span></p>
+                <p>Total Tasks : <span>0</span></p>
             </div>
         </div>
 

@@ -270,6 +270,10 @@ to {
 .project-btn a button,.project-btn a{
     text-decoration: none;
 }
+/* calculator */
+.cal-img{
+    object-fit: cover;
+}
 /* contact */
 .contact-content{
     display: flex;

@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 400px;
     margin: 50px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -20,23 +20,103 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .input-main {
     display: flex;
     gap: 20px;
 }
-
+input::placeholder{
+    font-size: 14px;
+    color: black;
+}
 .input-box {
-    padding: 10px;
-    width: 300px;
+    padding: 12px;
+    width: 255px;
     border-radius: 20px;
+    border: 1px solid black;
 }
 
 .add-btn {
     font-size: 15px;
     width: 50px;
+    height: 37px;
     border: none;
-    border-radius: 25px;
-    background-color: rgb(14, 139, 14);
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+}
+/* dropdown */
+
+.dropbtn {
+    background-color: green;
+    color: white;
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.drop-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .drop-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn ,.add-btn:hover{
+    background-color: white;
+    color: yellowgreen;
+}
+/* filter */
+.filters{
+    display: flex;
+    gap: 50px;
+}
+/* btn */
+.select-btn ,.delete-btn{
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+    background-color: #FFC0CB;
+    font-size: 14px;
+    font-weight: 600;
+}
+.select-btn:hover,.delete-btn:hover{
+    background-color: #87CEEB;
+}
+.filters p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn{
+    display: flex;
+    gap: 130px;
+}
+h2{
+    font-size: 20px;
 }
